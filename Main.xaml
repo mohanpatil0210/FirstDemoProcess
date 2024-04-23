@@ -1,0 +1,150 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1234,1410" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="512,1345" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Inbox (1) - mohanp@itm.edu - Institute for Technology &amp; Management Mail - Opera" sap:VirtualizedContainerService.HintSize="450,1257" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="2cd81f72-81a6-41ad-8af9-8b971c731e27" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,943" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Opera menu'" sap:VirtualizedContainerService.HintSize="354,197" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2cd81f72-81a6-41ad-8af9-8b971c731e27" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvElementArea="22, 21, 22, 23" CvType="Icon" DesignTimeRectangle="17, 17, 32, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Inbox (1) - mohanp@itm.edu - Institute for Technology &amp;amp; Manageme*' role='pane' /&gt;&lt;ctrl name='Browser non-client' role='pane' /&gt;&lt;ctrl name='Browser client' role='grouping' /&gt;&lt;ctrl name='Browser sidebar' role='grouping' /&gt;&lt;ctrl name='Opera menu' role='menu button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Inbox (1) - mohanp@itm.edu - Institute for Technology &amp;amp; Manageme*' role='pane' /&gt;&lt;ctrl name='Browser non-client' role='pane' /&gt;&lt;ctrl name='Browser client' role='grouping' /&gt;&lt;ctrl name='Browser sidebar' role='grouping' /&gt;&lt;ctrl name='Opera menu' role='menu button' automationid='' check:text='Opera menu' /&gt;" Guid="f2889592-766f-4554-9ff2-d7fe6278667e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFmSURBVFhH7ZUxTgNBDEW5BzeIlDoS1AkcYDkAnAB6RGgpaClIBxWpyCUooI6gJqFPuMBnvnZG6x2xsY2EFNA8aaRs7NU82Z7ZHWwZRUijCGkUIY0ipPGPhJ6egfEVMDgEdvv1Gh4BZ+fA4iMm+fELrT9rkSTBVR0HwRdg+ghc39TPk3tgFXKd+IQoMwpVkDKUSLHJHdDba2KsmFPKJ5RXhlXImb+2c/iOA7sQ50JudBpmpQu2TeZy3ozYhTisrU3CzHTB9sncC3uV7EL57GgMDppc/jZiF5Iylg2qk/Y7Rv6wkGwBl3acZYuHVfxTxy6UH/lNJ8dzIjPsQhSQm7AlXVxm8u/LGNCxC5G8StNZDAjmb+0cx5EnPqHvPh234rbmhdjbb2KcndU6Bm34hAilOBNSipcmW/qQPq6hnayeU4b4hRKcC4qNQhWSGE8iW7TpFlf4udAvUYQ0ipBGEdIoQhpbJgR8AVIcZHjMZfzyAAAAAElFTkSuQmCC" InformativeScreenshot="14106cdc3aa1532b2c25aad0cec2f5e0.png" ScopeSelectorArgument="&lt;wnd app='opera.exe' cls='Chrome_WidgetWin_1' title='Inbox (1) - mohanp@itm.edu - Institute for Technology &amp;amp; Manageme*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="416, 10, 195, 34" CvType="Button" DesignTimeRectangle="594, 17, 20, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Inbox (1) - mohanp@itm.edu - Institute for Technology &amp;amp; Manageme*' role='pane' /&gt;&lt;ctrl name='Browser non-client' role='pane' /&gt;&lt;ctrl name='Browser client' role='grouping' /&gt;&lt;ctrl name='Browser contents' role='grouping' /&gt;&lt;ctrl name='Top bar container' role='grouping' /&gt;&lt;ctrl name='Tab bar' role='page tab list' /&gt;&lt;ctrl name='New tab' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Inbox (1) - mohanp@itm.edu - Institute for Technology &amp;amp; Manageme*' role='pane' /&gt;&lt;ctrl name='Browser non-client' role='pane' /&gt;&lt;ctrl name='Browser client' role='grouping' /&gt;&lt;ctrl name='Browser contents' role='grouping' /&gt;&lt;ctrl name='Top bar container' role='grouping' /&gt;&lt;ctrl name='Tab bar' role='page tab list' /&gt;&lt;ctrl name='New tab' role='push button' automationid='' check:text='New tab' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New tab Ctrl+T'" sap:VirtualizedContainerService.HintSize="354,197" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2cd81f72-81a6-41ad-8af9-8b971c731e27" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CvTextArea="41, 61, 215, 12" CvTextArgument="New tab Ctrl+T" CvType="Text" DesignTimeRectangle="28, 56, 243, 22" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='New tab Ctrl+T' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='New tab Ctrl+T' role='menu item' automationid='' check:text='New tab Ctrl+T' /&gt;" Guid="21b3a094-32b3-422c-96d0-892a3cdc2974" InformativeScreenshot="fa6b4a97b864fb7e99ddd46b4e4afaa7.png" ScopeSelectorArgument="&lt;wnd app='opera.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="2cd81f72-81a6-41ad-8af9-8b971c731e27" Text="admin.speedexam.net" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CvElementArea="164, 50, 1548, 35" CvType="InputBox" DesignTimeRectangle="204, 53, 1498, 31" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Speed Dial - Opera' role='pane' /&gt;&lt;ctrl name='Browser non-client' role='pane' /&gt;&lt;ctrl name='Browser client' role='grouping' /&gt;&lt;ctrl name='Browser contents' role='grouping' /&gt;&lt;ctrl name='Navigation' role='tool bar' /&gt;&lt;ctrl name='Address bar' role='editable text' /&gt;&lt;ctrl name='Address field' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Speed Dial - Opera' role='pane' /&gt;&lt;ctrl name='Browser non-client' role='pane' /&gt;&lt;ctrl name='Browser client' role='grouping' /&gt;&lt;ctrl name='Browser contents' role='grouping' /&gt;&lt;ctrl name='Navigation' role='tool bar' /&gt;&lt;ctrl name='Address bar' role='editable text' /&gt;&lt;ctrl name='Address field' role='editable text' automationid='' /&gt;" Guid="4dd1ffc2-93bb-4662-aa8a-7b0cb25ab8d9" InformativeScreenshot="3d530f2f5b19beed729cf415acf22737.png" ScopeSelectorArgument="&lt;wnd app='opera.exe' cls='Chrome_WidgetWin_1' title='Speed Dial - Opera' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="354,204" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="SameAsCard" ScopeIdentifier="2cd81f72-81a6-41ad-8af9-8b971c731e27" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Users\Mohan Patil\AppData\Local\Programs\Opera\opera.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATlSURBVFhH1ZZtTFtVGMefDnrLVlbobWl7CxToaAu3BYTOzbFJxhYYb2YfDEvUT3xZYhY1Jn4xRsMHjSYyl8Uh0y3osiGy6ZzTvUUWonNjE3BmL+Bc3AzurWVuQYO8jNvH54zDdHg6WvSL/+SXNu3vPM8959zeHvjfBINBfcTpr9OcBZu19ILjWro/pCkFY5rin6D3YU0JnKLP3444Cx+L5OYa+LB/H3QHUzC9oFFLDwzRK8YCdxvZWF5mbok4A+toVjdmNvg7mjOA161uPJ/qxO9M9rv00/tr9NmYUw2zGrxc7EGoT6BZbBE1nGZUUbHHZMN2vYQfJCQI2ZmYiF1GM960uZtZTV7+wbnbXAnsETWd5meLa6zNsGDvJkl6ZaMkvbhdkra2SdKVDw0GFJKUhL0mxz52H/E20UMzbxY1neaCxXX4cYNxNaluwkakERlWgOJtRuMbHycnTxIo4kiK/A650TPJ9tzJ9lVM2J6/QwLwkCqaiY5Q3jKZntkvy5EvZBlFHJLl+il9RtgdO66oNybophIxqvi7XWBgs54t5j1paU2dDgdGIfSl2fzPX8eo3d84pvhRxB+KX9tqUipJY7OcNWpSkutrl+vi8awsFHEsM7ORq1NBCOpHbOrQiENFEbdsvgOkzZ+yY4puX1bW830eD4ro9XhC51SVdpNn2J5X95s9H6PRZc56gqsxZ63ZnHlGVYfPqiqK6M/Lq+MqQNjq23LLlkczFWD1jayGhRauxpN55woKjlwoLEQRA2qgmXsA16ze7nCaD0VctXpPkRLT3s/M6cLC1y4Hgyjip6KSE1wDuCp7Q9csXhRx2eLp4Frc6SsubriydCmKGFyyJMw1gEF50fig7EERP6QsauFa3OkpKakNLV+OQpYtG+MawKVU9/glcy6K6E/JmfMFXCwtXXurrAxF/FpWNs41AJpl6MdUN4o4l5LzEdfizuCKFQ2/r1qFQsrL/9qCM6ack+dNOSiCfce1uHO7vLxxtKICRdxeWd7NNYDjRlfL9wuzUUhy1kgvPai4GlfG1qw5dKeqCkUMPbryPa4BdCQpT35rdGE0Ti7IZI/huBKpqDBO1tQMR2pqUMTphx95iqsAQUi2HjNkDB2bn4EivkpK38/VmBOprm7A2loUodXWhqqSk9nf+L3oPtHbm44anBgFrVNyqNydNVhfL9HsL4qaM8IVFW+Sdv/DrRok7wG9EjqsV1DEIb39my6ARK4/MNSkcWbTadjsNzhzvFy9Lwmb51k27E+0YzQOSo7W3eRxXxja33XUJCJqzugpLX2atKg1zLt0lta982wYjb6M/M8HfMVO7t8LW3Zq/pJWXT0pasz4ZXnZ+6Sap0ZECR1VsnfprJ/t1qVhNLoV3+hEZWU7NXyBCq/Xamo2EoMzG07D7vozvqKDdICM5UQFOhNAbitYWtvBitH4VFJwIL8ExyvXCJsyaDXwyuJSOpBm7FAA8ljtqRazh4muVyH12TaQw6ILmKaDVqRTzsG+7ACe9T5EFGFvth+PWty4JyEt/DqkPsdq8ZpxRw5A4rIWkJvaQQ6JLkCM5ea7YN7ExrIaU6XmHnbHOuncX/IypKzfBqnbd4LlBK3M9Taw3qGGE2yVdoG1h7ZtO3MckLiYjeFj/7OwJWTH6UzCRxQSJZwigu0x+445MS43wJ8rwBk/aV5AEwAAAABJRU5ErkJggg==" InformativeScreenshot="7bb2fde76195edb7ccbb31be6436ee92.png" Selector="&lt;wnd app='opera.exe' cls='Chrome_WidgetWin_1' title='Inbox (1) - mohanp@itm.edu - Institute for Technology &amp;amp; Manageme*' /&gt;" Title="Inbox (1) - mohanp@itm.edu - Institute for Technology &amp; Management Mail - Opera" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Line down",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "xnhFHh2evUOPPs_Dg3LM6g",
+  "Reference": "_29B7Z7dk0WMtvOLwmaQAA/xnhFHh2evUOPPs_Dg3LM6g",
+  "ParentRef": "_29B7Z7dk0WMtvOLwmaQAA/Jgbkvg5apEO7OflH6R_mQg",
+  "Created": "2024-04-10T10:37:05.9369799Z",
+  "Updated": "2024-04-10T10:37:05.9369799Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

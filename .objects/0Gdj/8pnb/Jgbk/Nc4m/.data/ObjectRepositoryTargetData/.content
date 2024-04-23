@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="R03HSVjJ-kufsT811jmMfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvTextArea="34, 29, 34, 12" CvTextArgument="Font..." CvType="Text" DesignTimeRectangle="3, 25, 144, 22" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='Format' role='popup menu' /&gt;&lt;ctrl automationid='33' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Format' role='popup menu' /&gt;&lt;ctrl automationid='33' role='menu item' check:text='Font...' /&gt;" Guid="25fb92f7-d37f-448b-b643-f192ce782c7f" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="63d66831ae4fc3cb4580a14cf1b7771d.png" xmlns="">0iQ2aTAFbF0CcUDRAGy6tZA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

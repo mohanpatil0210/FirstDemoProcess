@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Format",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "SF-Nli2adEycT9j8J-Vgnw",
+  "Reference": "_29B7Z7dk0WMtvOLwmaQAA/SF-Nli2adEycT9j8J-Vgnw",
+  "ParentRef": "_29B7Z7dk0WMtvOLwmaQAA/Jgbkvg5apEO7OflH6R_mQg",
+  "Created": "2024-04-10T10:36:51.0299877Z",
+  "Updated": "2024-04-10T10:36:51.0299877Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

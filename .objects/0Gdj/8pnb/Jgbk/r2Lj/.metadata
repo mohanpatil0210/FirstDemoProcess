@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Line up",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "r2LjCULpAkupGt7zK9n-aw",
+  "Reference": "_29B7Z7dk0WMtvOLwmaQAA/r2LjCULpAkupGt7zK9n-aw",
+  "ParentRef": "_29B7Z7dk0WMtvOLwmaQAA/Jgbkvg5apEO7OflH6R_mQg",
+  "Created": "2024-04-10T10:37:36.7363038Z",
+  "Updated": "2024-04-10T10:37:36.7363038Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
